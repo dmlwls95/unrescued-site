@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unrescued</title>
+  <meta name="description" content="Unrescued is a co-op zombie roguelite for 1–4 players. Take a different job each day in a dead city, make it home, and keep a forgotten building alive long enough to call the last helicopter.">
+  <meta name="theme-color" content="#0c0f13">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Unrescued — No one came for us.">
+  <meta property="og:description" content="A co-op zombie roguelite for 1–4 players. In development for PC.">
+  <meta property="og:url" content="https://dmlwls95.github.io/unrescued-site/">
+  <meta property="og:image" content="https://dmlwls95.github.io/unrescued-site/img/hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="img/icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <img class="hero__bg" src="img/hero.jpg" alt="" fetchpriority="high">
+  <div class="hero__shade"></div>
+  <div class="wrap hero__body">
+    <img class="hero__logo" src="img/logo.png" width="1280" height="436" alt="Unrescued">
+    <h1 class="hero__tagline">No one came for us.</h1>
+    <p class="hero__lead">A co-op zombie roguelite for 1–4 players. Take a different job each day in a dead city, make it home, and keep a forgotten building alive long enough to call the last helicopter.</p>
+    <div class="hero__actions">
+      <a class="btn" href="#video">Watch the video</a>
+      <span class="btn btn--quiet" id="steam-button" aria-disabled="true">Steam page coming soon</span>
+    </div>
+    <p class="hero__status">In development · PC · Made with Unity</p>
+  </div>
+</header>
+
+<main>
+
+  <section class="story wrap" aria-labelledby="story-title">
+    <div class="story__text">
+      <p class="eyebrow">The story</p>
+      <h2 id="story-title">On paper, everyone here was rescued.</h2>
+      <p>When the city of Calder was evacuated, the army stencilled <b>RESCUED</b> on the shutter of Linden Plaza and moved on. On paper, everyone inside was saved, so nobody came back.</p>
+      <p>Someone left inside sprayed <b class="red">UN</b> over it in red. You are the people behind that shutter.</p>
+    </div>
+    <figure class="shot story__shot">
+      <img src="img/story.jpg" width="1920" height="1080" loading="lazy" alt="Four survivors stand in the rain in front of the plaza shutter: the army stencil RESCUED with UN sprayed over it in red, and EVAC COMPLETE.">
+    </figure>
+  </section>
+
+  <section class="video-section wrap" id="video" aria-labelledby="video-title">
+    <p class="eyebrow">Gameplay</p>
+    <h2 id="video-title">See it in motion</h2>
+    <div class="video" id="video-box">
+      <img class="video__poster" src="img/poster.jpg" width="1920" height="1080" loading="lazy" alt="Four survivors hold a flare ring at a gas station while the horde closes in.">
+      <button class="video__play" id="video-play" type="button" hidden>
+        <span class="video__icon" aria-hidden="true"></span>
+        <span>Play video</span>
+      </button>
+      <p class="video__soon" id="video-soon">Video coming soon</p>
+    </div>
+  </section>
+
+  <section class="compare wrap" aria-labelledby="compare-title">
+    <p class="eyebrow">What makes it different</p>
+    <h2 id="compare-title">Not a sandbox. A run.</h2>
+    <p class="compare__intro">From above it looks like zombie survival: an isometric dead city and a flashlight in the rain. The difference is the shape of a run. Every run has a start, a rhythm and an end.</p>
+    <div class="compare__table" role="table" aria-label="A survival sandbox compared with Unrescued">
+      <div class="compare__row compare__head" role="row">
+        <span role="columnheader">A survival sandbox</span>
+        <span role="columnheader">Unrescued</span>
+      </div>
+      <div class="compare__row" role="row">
+        <span role="cell">How long can you last? There is no ending.</span>
+        <span role="cell">Every run ends. Build up the base, then call the last helicopter from the roof.</span>
+      </div>
+      <div class="compare__row" role="row">
+        <span role="cell">Your character is a stat screen.</span>
+        <span role="cell">You draw character cards: who you were, and how you fight. Each run builds differently.</span>
+      </div>
+      <div class="compare__row" role="row">
+        <span role="cell">You wander a huge map.</span>
+        <span role="cell">Each day you pick one job: a rescue, a break-in, a night run. The streets are rebuilt every raid.</span>
+      </div>
+      <div class="compare__row" role="row">
+        <span role="cell">Lose the zombies and you are safe.</span>
+        <span role="cell">What you wake follows you.</span>
+      </div>
+      <div class="compare__row" role="row">
+        <span role="cell">The base is crates and menus.</span>
+        <span role="cell">A four-floor building where every room is worked by hand.</span>
+      </div>
+      <div class="compare__row" role="row">
+        <span role="cell">Guns are things you find.</span>
+        <span role="cell">Guns are built part by part at a workbench, often for a friend.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="pillars wrap" aria-labelledby="run-title">
+    <div class="pillars__head">
+      <p class="eyebrow">How a run plays</p>
+      <h2 id="run-title">One day at a time</h2>
+    </div>
+
+    <article class="pillar">
+      <figure class="shot"><img src="img/cards.jpg" width="1220" height="686" loading="lazy" alt="A survivor's notebook asks how this person fights, with three photo cards: Hawkeye, Juggernaut and Desperado."></figure>
+      <div class="pillar__text">
+        <h3>Every run starts with who you were.</h3>
+        <p>A notebook asks three questions: who was this person, how do they fight, what can they do? You answer with photo cards. A mechanic who fights like a juggernaut plays nothing like a locksmith with a sniper's eye.</p>
+        <p>53 character cards, and they keep growing, branching and scarring as the run goes on.</p>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="feature__text">
+        <h3>Pick a job. Make it home.</h3>
+        <p>Each morning you choose the day's job across six districts of the dead city, on streets pieced together fresh for every raid. Every job asks something different of the squad, and they don't all end the same way.</p>
+      </div>
+      <div class="gallery gallery--3">
+        <figure class="shot tagged"><img src="img/job_lights.jpg" width="960" height="540" loading="lazy" alt="In a dark subway substation, a survivor restores the power while zombies pour in from the street."><figcaption>Lights On</figcaption></figure>
+        <figure class="shot tagged"><img src="img/job_apc.jpg" width="960" height="540" loading="lazy" alt="A survivor works the hatch of an abandoned APC in a military motor pool, its headlights on."><figcaption>Start the APC</figcaption></figure>
+        <figure class="shot tagged"><img src="img/job_family.jpg" width="960" height="540" loading="lazy" alt="A suburban house with its walls cut away: the trapped family waits inside while the squad holds the door."><figcaption>Rescue the Trapped Family</figcaption></figure>
+      </div>
+      <ul class="jobs" aria-label="Kinds of jobs">
+        <li><b>Rescue</b><span>Get someone out alive, and they move into your building.</span><em>The Doctor in the Isolation Ward · Passengers of the Stalled Train</em></li>
+        <li><b>Restore</b><span>Bring the power or an engine back. Everything hears it come on.</span><em>Lights On · Secure the Cold Room · Start the APC</em></li>
+        <li><b>Hold</b><span>Stand your ground at the pump or the transmitter until the work is done.</span><em>Fill the Tank · Hold the Transmitter</em></li>
+        <li><b>Break in</b><span>Cut the shutter, trip the alarm, take what's behind it.</span><em>Breach the Armory · Loot the Cargo Car · Seized Goods Locker</em></li>
+        <li><b>Sneak</b><span>Go in at night. One shot and the whole street wakes.</span><em>Night Refuel · Night Hoard Run</em></li>
+        <li><b>Run</b><span>The road is gone. Cross on foot to where the van waits.</span><em>Gas Station Run · Suburb Run</em></li>
+      </ul>
+    </article>
+
+    <article class="pillar pillar--flip">
+      <figure class="shot"><img src="img/van.jpg" width="1920" height="1080" loading="lazy" alt="The van pushes through the horde into a flare ring at a gas station where four survivors are holding."></figure>
+      <div class="pillar__text">
+        <h3>The ride home is never quiet.</h3>
+        <p>A loud job brings the whole block. Fire the flare and hold until your driver pushes through the horde, or cut through the alleys to where the van waits on the far side. It goes quiet, then the horde comes, then you get a breath.</p>
+      </div>
+    </article>
+
+    <article class="pillar">
+      <figure class="shot"><img src="img/tail.jpg" width="1440" height="810" loading="lazy" alt="A survivor runs down a suburban street with a growing pack of zombies right behind."></figure>
+      <div class="pillar__text">
+        <h3>What you wake follows you.</h3>
+        <p>Zombies you stir up don't lose interest when you turn a corner. They come after you, and the pack behind you is part of every choice: fight it now, or keep moving and bring it to the job.</p>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="feature__text">
+        <h3>Who you were changes how you fight.</h3>
+        <p>How a character fights sets the weapon they are issued and their place in the squad. Hold a street with a machine gun, clear a corner with a rocket, wade into the crowd with an axe, or keep everyone standing. 13 roles, each with its own weapon, and every card picked along the way bends it further.</p>
+      </div>
+      <div class="gallery gallery--2">
+        <figure class="shot tagged"><img src="img/role_mg.jpg" width="960" height="540" loading="lazy" alt="A juggernaut fires a general-purpose machine gun up the street at a running pack."><figcaption>Juggernaut · General-Purpose MG</figcaption></figure>
+        <figure class="shot tagged"><img src="img/role_rocket.jpg" width="960" height="540" loading="lazy" alt="A rocket explodes against a building corner where a pack has gathered."><figcaption>Mad Bomber · Rocket Launcher</figcaption></figure>
+        <figure class="shot tagged"><img src="img/role_axe.jpg" width="960" height="540" loading="lazy" alt="A berserker swings a fire axe into a crowd of zombies."><figcaption>Berserker · Fire Axe</figcaption></figure>
+        <figure class="shot tagged"><img src="img/role_medic.jpg" width="800" height="450" loading="lazy" alt="A field medic kneels to revive a downed teammate."><figcaption>Field Medic · Crossbow</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="feature__text">
+        <h3>Come home. Keep changing.</h3>
+        <p>After every raid the van pulls into the garage of Linden Plaza and everyone unpacks what they carried home. Then the building needs you, by hand: restart the generator, cook what you brought back, collect the eggs, choose what to research next and stitch your own bite.</p>
+        <p>The people you rescue move in, take a job in the building and have to eat. Every few nights the days leave something in your bones: a new ability, a scar or a habit.</p>
+      </div>
+      <div class="gallery gallery--4">
+        <figure class="shot tagged"><img src="img/home_back.jpg" width="960" height="540" loading="lazy" alt="The van back in the garage of Linden Plaza, survivors unloading."><figcaption>Made it back</figcaption></figure>
+        <figure class="shot tagged"><img src="img/home_cards.jpg" width="960" height="540" loading="lazy" alt="The notebook offers three ability cards: Iron Skin, Counterattack and Finisher."><figcaption>A new card</figcaption></figure>
+        <figure class="shot tagged"><img src="img/home_power.jpg" width="960" height="540" loading="lazy" alt="Lights come on in the basement as the generator starts."><figcaption>Power</figcaption></figure>
+        <figure class="shot tagged"><img src="img/home_cook.jpg" width="960" height="540" loading="lazy" alt="Chopping a carrot on a board for canned stew."><figcaption>Cooking</figcaption></figure>
+        <figure class="shot tagged"><img src="img/home_hens.jpg" width="960" height="540" loading="lazy" alt="Shooing a hen off her eggs in the rooftop coop."><figcaption>Hens</figcaption></figure>
+        <figure class="shot tagged"><img src="img/home_research.jpg" width="960" height="540" loading="lazy" alt="The research board, with cards still to unlock."><figcaption>Research</figcaption></figure>
+        <figure class="shot tagged"><img src="img/home_roof.jpg" width="960" height="540" loading="lazy" alt="The roof of Linden Plaza: a fenced garden, a coop and the helipad."><figcaption>Roof garden</figcaption></figure>
+        <figure class="shot tagged"><img src="img/home_stitch.jpg" width="960" height="540" loading="lazy" alt="Stitching a bite on your own left arm."><figcaption>Your own wounds</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="pillar pillar--flip">
+      <figure class="shot"><img src="img/workbench.jpg" width="1316" height="740" loading="lazy" alt="Pouring molten metal into a mould at the workbench, marked Perfect."></figure>
+      <div class="pillar__text">
+        <h3>Every gun, part by part.</h3>
+        <p>Guns are made at the workbench one step at a time: cast, drill, rifle the barrel, weld, assemble. Then each one hangs on its owner's rack. Every gun is built for someone.</p>
+      </div>
+    </article>
+
+    <article class="pillar">
+      <figure class="shot"><img src="img/boss.jpg" width="1120" height="630" loading="lazy" alt="Four survivors fire on the Brute as it lands in the street in a burst of fire."></figure>
+      <div class="pillar__text">
+        <h3>Then something bigger comes.</h3>
+        <p>The Brute leaps into the street, slams the ground and shoves you across it. Bosses grow tougher with every player in the squad.</p>
+      </div>
+    </article>
+
+    <article class="pillar pillar--flip">
+      <figure class="shot"><img src="img/rooftop.jpg" width="1600" height="900" loading="lazy" alt="Survivors fight off a horde on a rain-soaked rooftop."></figure>
+      <div class="pillar__text">
+        <h3>Call the last helicopter.</h3>
+        <p>Bring back what the helipad needs from the deepest districts, clear the roof and call it in. Then hold the stairs.</p>
+      </div>
+    </article>
+
+  </section>
+
+  <section class="also wrap" aria-label="More about the game">
+    <div class="also__item">
+      <h3>Wounds and names</h3>
+      <p>Injuries land on body parts. A bite can carry the infection, and you won't know until the fever comes. Death is permanent; the fallen are remembered in the lobby.</p>
+    </div>
+    <div class="also__item">
+      <h3>Together or alone</h3>
+      <p>Online co-op for 1–4 players with push-to-talk voice. Every part of the game can be played solo.</p>
+    </div>
+    <div class="also__item">
+      <h3>A city rebuilt every raid</h3>
+      <p>Each district is pieced together from hand-built blocks for every raid, with buildings you can enter and search room by room.</p>
+    </div>
+  </section>
+
+  <section class="facts wrap" aria-labelledby="facts-title">
+    <h2 id="facts-title">Fact sheet</h2>
+    <dl class="facts__list">
+      <div><dt>Title</dt><dd>Unrescued</dd></div>
+      <div><dt>Developer</dt><dd>ProjectLeft</dd></div>
+      <div><dt>Genre</dt><dd>Co-op zombie roguelite</dd></div>
+      <div><dt>Players</dt><dd>1–4, online co-op · fully playable solo</dd></div>
+      <div><dt>Platform</dt><dd>PC (Steam)</dd></div>
+      <div><dt>Engine</dt><dd>Unity 6</dd></div>
+      <div><dt>Status</dt><dd>In development · playable build</dd></div>
+      <div><dt>Release</dt><dd>Early Access, planned for 2027</dd></div>
+      <div><dt>Languages</dt><dd>English, Korean</dd></div>
+      <!-- Shown only once SITE.contactEmail is filled in (script at the bottom). -->
+      <div id="contact-row" hidden><dt>Contact</dt><dd><a id="contact-link" href="#"></a></dd></div>
+    </dl>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__body">
+    <img class="footer__logo" src="img/logo.png" width="1280" height="436" alt="" loading="lazy">
+    <p>© 2026 ProjectLeft. Unrescued is in development; everything shown is work in progress.</p>
+    <p>Made with Unity.</p>
+  </div>
+</footer>
+
+<script>
+  // Links to fill in later. Leave a value empty and the page shows "coming soon" (or hides the contact row).
+  var SITE = {
+    steamAppId: "",   // e.g. "1234560" once the Coming Soon page is public
+    youtubeId: "i7m5EQDgjhA",  // Fellowship video (https://youtu.be/i7m5EQDgjhA)
+    contactEmail: ""  // e.g. "hello@example.com"
+  };
+
+  (function () {
+    if (SITE.contactEmail) {
+      var link = document.getElementById("contact-link");
+      link.href = "mailto:" + SITE.contactEmail;
+      link.textContent = SITE.contactEmail;
+      document.getElementById("contact-row").hidden = false;
+    }
+    if (SITE.steamAppId) {
+      var old = document.getElementById("steam-button");
+      var a = document.createElement("a");
+      a.className = "btn btn--steam";
+      a.href = "https://store.steampowered.com/app/" + encodeURIComponent(SITE.steamAppId) + "/";
+      a.textContent = "Wishlist on Steam";
+      old.replaceWith(a);
+    }
+    if (SITE.youtubeId) {
+      var box = document.getElementById("video-box");
+      var play = document.getElementById("video-play");
+      document.getElementById("video-soon").hidden = true;
+      play.hidden = false;
+      play.addEventListener("click", function () {
+        var f = document.createElement("iframe");
+        f.src = "https://www.youtube-nocookie.com/embed/" + encodeURIComponent(SITE.youtubeId) + "?autoplay=1&rel=0";
+        f.title = "Unrescued gameplay video";
+        f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+        f.allowFullscreen = true;
+        box.replaceChildren(f);
+      });
+    }
+  })();
+</script>
+</body>
+</html>
